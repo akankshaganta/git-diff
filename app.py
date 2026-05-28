@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Flask!"
+    return "Hello from NIT"
 
 @app.route("/about")
 def about():
